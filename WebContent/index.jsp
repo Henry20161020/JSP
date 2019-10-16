@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Wow!</title>
 </head>
 <body>
-
+	<p><a href="HelloWorldServlet">Entrance to the maze</a></p>
 </body>
 </html>
