@@ -11,5 +11,17 @@
  		<name>custom-footer</name>
  		<tag-class>tags.FooterTagHandler</tag-class>
  		<body-content>empty</body-content>
- 	</tag> 
+ 		<attribute>
+ 			<name>year</name>
+ 			<required>false</required>
+ 			<rtexprvalue>true</rtexprvalue>
+ 			<type>Integer</type>
+ 		</attribute> 
+ 	</tag>
+ 	<tag>
+ 		<name>message</name>
+ 		<tag-class>tags.MessageTagHandler</tag-class>
+ 		<body-content>scriptless</body-content>
+ 	</tag>
+
 </taglib>
