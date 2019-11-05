@@ -22,6 +22,7 @@
  		<name>message</name>
  		<tag-class>tags.MessageTagHandler</tag-class>
  		<body-content>scriptless</body-content>
+ 		<dynamic-attributes>true</dynamic-attributes>
  	</tag>
 
 </taglib>
