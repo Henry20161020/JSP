@@ -7,11 +7,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Wow!</title>
+<title>Patient Report</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<p><a href="HelloWorldServlet">Entrance to the maze</a></p>
+	<form action="GeneratePatientReport" method="get">
+		<label for="pid">Patient Number: 
+			<input type="text" id="pid" name="pid" autocomplete="off" required>
+		</label>
+		<input type="submit" value="Go"><br> 
+	</form>
+	<p>Patient Name: </p>
 	<hlx3:message class="testing">This is a really boring tag.</hlx3:message>
 	<hlx:footer year="2020"/>
 	<hlx2:custom-footer year="2000" />
