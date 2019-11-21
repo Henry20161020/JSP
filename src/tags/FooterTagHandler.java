@@ -16,7 +16,7 @@ public class FooterTagHandler extends SimpleTagSupport {
 	        year = LocalDate.now().getYear();
 	    }
 		out.append("<footer><address>&copy " + year
-		        + " </address>"
+		        + "  Henry, Athabasca </address>"
 		        + "</footer>");
 	}
 	/**
