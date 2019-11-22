@@ -37,6 +37,7 @@ public class GeneratePatientReport extends HttpServlet {
 		
 		HttpSession session = request.getSession();
 		try {
+			session.setAttribute("pid", pid);
 			session.setAttribute("patientName", dao.getPatientName(pid));
 			session.setAttribute("careCentreName", dao.getPatientCareCentre(pid));
 			session.setAttribute("nurseName", dao.getPatientNurse(pid));

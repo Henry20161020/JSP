@@ -15,7 +15,7 @@
 <body>
 	<form action="GeneratePatientReport" method="get">
 		<label for="pid">Patient Number: 
-			<input type="text" id="pid" name="pid" autocomplete="off" required>
+			<input type="text" id="pid" name="pid" autocomplete="off" value="${sessionScope.pid}" required>
 		</label>
 		<input type="submit" value="Search"> 
 	</form>
@@ -31,12 +31,10 @@
 	  </tr>
 	  <c:forEach var="treatment" items="${sessionScope.treatments}" >    
 		<tr>
-
 			<td>${treatment[0]}</td>
 			<td>${treatment[1]}</td>
 			<td>${treatment[2]}</td>
 			<td>${treatment[3]}</td>
-
 		</tr>
 	  </c:forEach>
 	</table>
@@ -44,9 +42,6 @@
   	<hlx3:message class="testing"> </hlx3:message>
 <!-- 
 	<hlx:footer year="2020"/>-->
- 
-	<hlx2:custom-footer /> 
+ 	<hlx2:custom-footer /> 
 </body>
-
-
 </html>

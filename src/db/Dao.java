@@ -33,8 +33,7 @@ public class Dao {
 	
 	/**
 	 * uses getConnection() method to connect to the database and returns the Connection object
-	 * 
-	 * @return connection the connection
+	 * @return the connection
 	 * @throws SQLException
 	 */
 	private Connection getConnection() throws SQLException{
